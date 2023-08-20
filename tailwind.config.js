@@ -8,9 +8,9 @@ module.exports = {
       colors: {
         'secondaryDark' : '#0A0B0D',
         'primaryDark' : '#151618',
-        'prmaryText' : '#F6D07C',
+        'primaryText' : '#F6D07C',
         'secondarySubtext' : '#FFFFFF',
-        'secondaruText' : '#7D8084',
+        'secondaryText' : '#7D8084',
         'primaryGrey' : '#7D8084'
       }
     },
