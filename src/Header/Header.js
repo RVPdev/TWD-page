@@ -6,7 +6,7 @@ function Header() {
   // creating Header tag and possible elements
 
   return (
-    <div>
+    <div className="row">
       <Navbar />
     </div>
   );
