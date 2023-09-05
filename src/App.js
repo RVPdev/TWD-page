@@ -8,7 +8,7 @@ import About from "./Body/About";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="container-fluid">
         <Header />
 
         <Switch>

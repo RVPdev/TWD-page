@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div className="bg-primaryText w-full h-screen">
+        <div className="">
             Hello World
         </div>
     );
