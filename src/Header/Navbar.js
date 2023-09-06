@@ -1,28 +1,35 @@
 import React from "react";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+// import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+
 import "./Navbar.css";
-function Navbar() {
+
+function NavBar() {
   // NavBar element
   return (
-    <nav className="navbar bg-light border-bottom border-body">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
-          TWDBuyers
-        </Link>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </nav>
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Row className="justify-content">
+          <Col>
+            <Navbar.Brand href="/">TWD</Navbar.Brand>
+          </Col>
+          <Col >
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Col>
+        </Row>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default NavBar;

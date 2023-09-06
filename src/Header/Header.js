@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import NavBar from "./Navbar";
 
 function Header() {
 
@@ -7,7 +7,7 @@ function Header() {
 
   return (
     <div className="row">
-      <Navbar />
+      <NavBar />
     </div>
   );
 }
