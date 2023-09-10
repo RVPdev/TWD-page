@@ -10,9 +10,9 @@ import "./Navbar.css";
 function NavBar() {
   // NavBar element
   return (
-    <Navbar bg="dark" data-bs-theme="dark" expand="lg">
+    <Navbar className="bg-primary-black" data-bs-theme="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="/">TWD</Navbar.Brand>
+        <Navbar.Brand className="text-warning" href="/">TWD</Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
 
         <Navbar.Offcanvas
@@ -21,6 +21,7 @@ function NavBar() {
           placement="end"
           bg="dark"
           data-bs-theme="dark"
+          className="bg-primary-black"
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">

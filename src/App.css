@@ -1,7 +1,12 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
 
 #root{
     padding:0px;
+}
+
+body {
+    background-color: rgb(21,22,24) ;
+}
+
+.bg-primary-black {
+    background-color: rgb(10,11,13) ;
 }
