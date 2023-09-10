@@ -10,9 +10,16 @@ import "./Navbar.css";
 function NavBar() {
   // NavBar element
   return (
-    <Navbar className="bg-primary-black" data-bs-theme="dark" expand="lg">
+    <Navbar
+      className="bg-primary-black"
+      data-bs-theme="dark"
+      expand="lg"
+      fixed="top"
+    >
       <Container>
-        <Navbar.Brand className="text-warning" href="/">TWD</Navbar.Brand>
+        <Navbar.Brand className="text-warning" href="/">
+          TWD
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
 
         <Navbar.Offcanvas

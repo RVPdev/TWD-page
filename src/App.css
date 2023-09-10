@@ -10,3 +10,8 @@ body {
 .bg-primary-black {
     background-color: rgb(10,11,13) ;
 }
+
+.hero-margin-top {
+    margin-top: 55px;
+    padding-top: 50px;
+} 
