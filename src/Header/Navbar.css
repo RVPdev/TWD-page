@@ -1,3 +1,28 @@
 .navbar-container{
     width:100%;
+    display:flex;
+    flex-direction:row;
+justify-content:space-between;
+}
+
+/* Default styles (e.g., for desktop) */
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+/* Styles for screens less than 600px wide */
+@media (max-width: 600px) {
+    .navbar-nav {
+        display: none;
+    }
+    .navbar-toggler {
+        order: 2;
+        display: block;
+    }
 }

@@ -5,7 +5,7 @@ function Navbar() {
   // NavBar element
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="d-flex navbar-container">
+      <div className="d-flex  navbar-container">
         <div className="navbar-brand">
           TWD Buyers
         </div>
